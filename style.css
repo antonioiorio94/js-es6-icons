@@ -56,3 +56,15 @@ select {
 .icon_box h3 {
   margin-top: 10px;
 }
+
+.orange {
+  color: orange;
+}
+
+.blue {
+  color: rgb(21, 71, 117);
+}
+
+.green {
+  color: forestgreen;
+}

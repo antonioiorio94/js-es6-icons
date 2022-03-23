@@ -22,14 +22,20 @@ console.log(iconClass);
 
 const divContainer = document.getElementById("container");
 
-icons.forEach(({ name, prefix }) => {
+//Uso forEach per inserire name e prefix nei div
+icons.forEach(({ name, prefix, color }) => {
   const divIconBox = document.createElement("div");
   divIconBox.setAttribute("class", " icon_box");
   const divWithIcon = document.createElement("i");
   divWithIcon.setAttribute("class", prefix);
+  divWithIcon.classList.add("class", color);
   const divWithName = document.createElement("h3");
   divWithName.innerHTML = name.toUpperCase();
   divIconBox.appendChild(divWithIcon);
   divIconBox.appendChild(divWithName);
   divContainer.appendChild(divIconBox);
 });
+
+/*
+Milestone 2
+Ciascuna icona ha una proprietà "color": utilizzare questa proprietà per visualizzare le icone del colore corrispondente.*/
