@@ -19,3 +19,17 @@ const iconClass = icons.map((icon) => {
 });
 
 console.log(iconClass);
+
+const divContainer = document.getElementById("container");
+
+icons.forEach(({ name, prefix }) => {
+  const divIconBox = document.createElement("div");
+  divIconBox.setAttribute("class", " icon_box");
+  const divWithIcon = document.createElement("i");
+  divWithIcon.setAttribute("class", prefix);
+  const divWithName = document.createElement("h2");
+  divWithName.innerHTML = name;
+  divIconBox.appendChild(divWithIcon);
+  divIconBox.appendChild(divWithName);
+  divContainer.appendChild(divIconBox);
+});
