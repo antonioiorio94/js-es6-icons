@@ -1,114 +1,114 @@
 [
-	{
-		name: 'cat',
-		prefix: 'fa-',
-		type: 'animal',
-		family: 'fas',
-		color: 'orange'
-	},
-	{
-		name: 'crow',
-		prefix: 'fa-',
-		type: 'animal',
-		family: 'fas',
-		color: 'orange'
-	},
-	{
-		name: 'dog',
-		prefix: 'fa-',
-		type: 'animal',
-		family: 'fas',
-		color: 'orange'
-	},
-	{
-		name: 'dove',
-		prefix: 'fa-',
-		type: 'animal',
-		family: 'fas',
-		color: 'orange'
-	},
-	{
-		name: 'dragon',
-		prefix: 'fa-',
-		type: 'animal',
-		family: 'fas',
-		color: 'orange'
-	},
-	{
-		name: 'horse',
-		prefix: 'fa-',
-		type: 'animal',
-		family: 'fas',
-		color: 'orange'
-	},
-	{
-		name: 'hippo',
-		prefix: 'fa-',
-		type: 'animal',
-		family: 'fas',
-		color: 'orange'
-	},
-	{
-		name: 'fish',
-		prefix: 'fa-',
-		type: 'animal',
-		family: 'fas',
-		color: 'orange'
-	},
-	{
-		name: 'carrot',
-		prefix: 'fa-',
-		type: 'vegetable',
-		family: 'fas',
-		color: 'green'
-	},
-	{
-		name: 'apple-alt',
-		prefix: 'fa-',
-		type: 'vegetable',
-		family: 'fas',
-		color: 'green'
-	},
-	{
-		name: 'lemon',
-		prefix: 'fa-',
-		type: 'vegetable',
-		family: 'fas',
-		color: 'green'
-	},
-	{
-		name: 'pepper-hot',
-		prefix: 'fa-',
-		type: 'vegetable',
-		family: 'fas',
-		color: 'green'
-	},
-	{
-		name: 'user-astronaut',
-		prefix: 'fa-',
-		type: 'user',
-		family: 'fas',
-		color: 'blue'
-	},
-	{
-		name: 'user-graduate',
-		prefix: 'fa-',
-		type: 'user',
-		family: 'fas',
-		color: 'blue'
-	},
-	{
-		name: 'user-ninja',
-		prefix: 'fa-',
-		type: 'user',
-		family: 'fas',
-		color: 'blue'
-	},
-	{
-		name: 'user-secret',
-		prefix: 'fa-',
-		type: 'user',
-		family: 'fas',
-		color: 'blue'
-	}
+  {
+    name: "cat",
+    prefix: "fa-solid fa-cat",
+    type: "animal",
+    family: "fas",
+    color: "orange",
+  },
+  {
+    name: "crow",
+    prefix: "fa-solid fa-crow",
+    type: "animal",
+    family: "fas",
+    color: "orange",
+  },
+  {
+    name: "dog",
+    prefix: "fa-solid fa-dog",
+    type: "animal",
+    family: "fas",
+    color: "orange",
+  },
+  {
+    name: "dove",
+    prefix: "fa-solid fa-dove",
+    type: "animal",
+    family: "fas",
+    color: "orange",
+  },
+  {
+    name: "dragon",
+    prefix: "fa-solid fa-dragon",
+    type: "animal",
+    family: "fas",
+    color: "orange",
+  },
+  {
+    name: "horse",
+    prefix: "fa-solid fa-horse",
+    type: "animal",
+    family: "fas",
+    color: "orange",
+  },
+  {
+    name: "hippo",
+    prefix: "fa-solid fa-hippo",
+    type: "animal",
+    family: "fas",
+    color: "orange",
+  },
+  {
+    name: "fish",
+    prefix: "fa-solid fa-fish",
+    type: "animal",
+    family: "fas",
+    color: "orange",
+  },
+  {
+    name: "carrot",
+    prefix: "fa-solid fa-carrot",
+    type: "vegetable",
+    family: "fas",
+    color: "green",
+  },
+  {
+    name: "apple-alt",
+    prefix: "fa-solid fa-apple-whole",
+    type: "vegetable",
+    family: "fas",
+    color: "green",
+  },
+  {
+    name: "lemon",
+    prefix: "fa-solid fa-lemon",
+    type: "vegetable",
+    family: "fas",
+    color: "green",
+  },
+  {
+    name: "pepper-hot",
+    prefix: "fa-solid fa-pepper-hot",
+    type: "vegetable",
+    family: "fas",
+    color: "green",
+  },
+  {
+    name: "user-astronaut",
+    prefix: "fa-solid fa-user-astronaut",
+    type: "user",
+    family: "fas",
+    color: "blue",
+  },
+  {
+    name: "user-graduate",
+    prefix: "fa-solid fa-user-graduate",
+    type: "user",
+    family: "fas",
+    color: "blue",
+  },
+  {
+    name: "user-ninja",
+    prefix: "fa-solid fa-user-ninja",
+    type: "user",
+    family: "fas",
+    color: "blue",
+  },
+  {
+    name: "user-secret",
+    prefix: "fa-solid fa-user-secret",
+    type: "user",
+    family: "fas",
+    color: "blue",
+  },
 ];
