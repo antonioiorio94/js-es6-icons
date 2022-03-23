@@ -27,8 +27,8 @@ icons.forEach(({ name, prefix }) => {
   divIconBox.setAttribute("class", " icon_box");
   const divWithIcon = document.createElement("i");
   divWithIcon.setAttribute("class", prefix);
-  const divWithName = document.createElement("h2");
-  divWithName.innerHTML = name;
+  const divWithName = document.createElement("h3");
+  divWithName.innerHTML = name.toUpperCase();
   divIconBox.appendChild(divWithIcon);
   divIconBox.appendChild(divWithName);
   divContainer.appendChild(divIconBox);
